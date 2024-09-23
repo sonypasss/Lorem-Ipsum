@@ -1,0 +1,204 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.pic_container {
+    box-sizing: border-box;
+    width: 827px;
+    height: 650px;
+    background-image: url(img/small-team-discussing-ideas-2194220-0.svg);
+    margin-top: 127px;
+}
+
+.header_welcome {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37.5px;
+    text-align: left;
+    margin-left: 32px;
+    margin-top: 10px;
+    
+}
+
+.header_signup {
+    width: 155px;
+    height: 47px;
+    margin-left: 32px;
+
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 46.5px;
+    color: #000;
+}
+
+.header_lorem {
+    width: 260px;
+    height: 24px;
+    margin-left: 32px;
+    margin-top: 5px;
+
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.dialog {
+    width: 505px;
+    height: 757px;
+	border: 1px solid #878787;
+	border-radius: 1rem;
+    margin-left: 111px;
+    margin-top: 30px;
+}
+
+.label {
+    width: 390px;
+    height: 24px;
+    margin-left: 32px;
+
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.wrapper_input1 {
+    margin-top: 20px;
+    border-radius: 6px;
+    
+
+}
+
+.wrapper_input2 {
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.wrapper_input3 {
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.wrapper_input4 {
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+input {
+    width: 423px;
+    height: 59px;
+    border-radius: 6px;
+    background: #ffffff;
+    border: 0.6px solid #282828;
+    margin-top: 13px;
+    margin-left: 32px;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.acc {
+    width: 286px;
+    height: 24px;
+    margin-top: 26px;
+    margin-left: 100px;
+
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 24px;
+    color: #808080;
+}
+
+.text_register {
+    color: #000;
+    font-weight: 200;
+}
+
+.button_register {
+    width: 423px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: 32px;
+    cursor: pointer;
+    border: 6px;
+    background-color: #000;
+    color: #ffffff;
+
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.button:active {
+    border-bottom: 0px !important;
+    border-top: 2px solid #0169AD;
+    margin-top: 2px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.btn_pass {
+    margin-left: -50px; 
+}
+ 
+.password {
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .dialog {
+        width: 328px;
+        height: 757px;
+        border: 0px, 0px, 0px, 0px;
+        border-radius: 1rem;
+    }
+
+    .header_welcome {
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 37.5px;
+        margin-left: 32px;
+        margin-top: 10px;
+        
+    }
+
+    input {
+        width: 279.41px;
+        height: 57px;
+    }
+
+    .button_register {
+        width: 279.41px;
+        height: 57px;
+        border-radius: 6px;
+    }
+
+    .acc {
+        width: 227px;
+        height: 18px;
+        margin-top: 16px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+}
